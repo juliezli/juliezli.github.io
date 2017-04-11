@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-01T16:27:17-07:00</updated><id>http://localhost:4000/</id><title type="html">Julie Li | Product Designer</title><subtitle>Julie Zhuying Li Portfolio</subtitle><author><name>Julie Li</name></author><entry><title type="html">Transitional Resources Website Redesign</title><link href="http://localhost:4000/work/tr" rel="alternate" type="text/html" title="Transitional Resources Website Redesign" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/tr</id><content type="html" xml:base="http://localhost:4000/work/tr">{% include image.html url=&quot;/media/tr/tr_logo_small.svg&quot; customeClass='align-center' %}
+
+# Transitional Resources Website Redesign
+
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
+    &lt;p&gt;
+      Our client, Transitional Resources (TR), is a small licensed mental health center in King County, Seattle WA, offering a continuum of mental health treatment, housing, and vocational services to those who are most in need. We goal is to better communicate the organization’s purpose, services, and achievements to their target audience.
+    &lt;/p&gt;
+    &lt;p&gt;Implementing UCD process, we identified challenges, brainstormed our solutions, performed user testing, and iterated to optimize our solutions.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/overview.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### PROCESS &amp; CHALLENGES
+## USER CENTERED DESIGN PROCESS
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;We started the project by interviewing the stakeholders to understand their business goals, branding, and targeted user groups. We carefully selected our research methods to maximize results based on time and budget constraints. The methods include heuristic evaluation, survey design, and analysis, interviews, web analytics.&lt;/p&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/tr/tr-process.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### USER RESEARCH &amp; DATA ANALYSIS
+## RESEARCH ANALYSIS
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;We collected a total of 23 survey responses, 153 Google Analytics sessions, 6 interviews, and 22 card sorting sessions that provide insights into user habits for making donations online or looking for volunteer opportunities online, motivations for using the website to volunteer/donate or other purposes.&lt;/p&gt;
+    &lt;p&gt;For card sorting sessions, we prepared 45 cards on current and future contents and gathered 22 feedback. We then used Participant-centric Analysis to get a high-level understanding of your card sort data and provides actionable insights. The card sorting results greatly helped us with information architecture.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/research.png&quot; %}
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Our research suggested our primary users will be donors and volunteers. We created personas, user tasks, and metrics. Debbie is our Donor persona. Her goal is to make a contribution with a positive impact on the mental illness/homeless community. Vince is our Volunteer persona. His goal is to volunteer at an organization that positively impacts the community. To inspire our users, we decided to highlight organization’s mission, shared values, and legitimacy of TR.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/research-persona.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+###### Design &amp; Evaluate
+## IDEATION &amp;  PROTOTYPE
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;Based on our research, we started ideation session. We sketched and white boarded our idea to quickly generate as many solutions as we could. And then gradually increase fidelity to refine our design based on usability tests.&lt;/p&gt;
+    &lt;p&gt;As we began building our prototype and doing usability testing, we further refined the sitemap so that sections under nav items were all on the same page and re-collapsed volunteering and donating sections. The final sitemap also has more technical considerations, such as length of top navigation.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/paper-proto.png&quot; %}
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/lo-fi.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### DESIGN SOLUTIONS
+## DESIGN PRINCIPLES
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;Design principles are crucial guidelines to the team for building empathy for users. We studied a series of design principles before creating our own, such as Facebook Design Principles, Dieter Ram’s Ten Principles for Good Design etc. We then synthesized and created our own version. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/heart.svg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Inspirational&lt;/h5&gt;
+    &lt;p&gt;Our design should encourage and motivate people to get involved due to the cause and impact of the organization. &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/eye.svg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Transparent&lt;/h5&gt;
+    &lt;p&gt;What the organization does and the impact of users’ contributions should be understandable.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/bulb.svg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Predictable&lt;/h5&gt;
+    &lt;p&gt;To help expedite users’ actions, our design should be consistent, simple, clear and clean &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/earth.svg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Accessible&lt;/h5&gt;
+    &lt;p&gt;Our design must be usable and meet the needs of people with different capacities&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+###### Design Solutions
+## Visual Design
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;A successful website should be both functional and aesthetically pleasing. In the final design stage, we explored different options on color schemes, typography, imageries, then established a design style guide for our client. The design decisions we made heavily rely on research activities we performed, which boil down to the four design principles we build for TR: Inspirational, Transparent, Predictable, and Accessible.&lt;/p&gt;
+
+    &lt;p&gt;We studied a variety of non-profit websites to inspire and inform our design. We identified some common patterns as current best design practices. We also explored different typography combinations and finally chose Roboto as it is a modern, yet accessible, web friendly font.&lt;/p&gt;
+
+    &lt;p&gt;Our client requests us to refresh the current branding based on their existing logo. Although we were not able to produce brand strategy due to time constraint, we added a secondary Aqua color to revive the brand image while preserving the existing recognized brand image.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/visual-design.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--6&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+###### Design Solutions
+## INTERACTIVE PROTOTYPE
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;After 3 rounds of visual design iterations, we produced an interactive prototype comprised of 7 unique page layouts implemented using InVision. Based on the hard work aforementioned, these are the results of our final Hi-Fi prototype. Starting from the hero images, in order to inspire, we want to use human elements and factual numbers to encourage and motivate people to get involved. To ensure transparency, we help users understand how small donations can make a real impact in improving someone’s life. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/tr/prototype.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/tr/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry><entry><title type="html">Lique - Mobile App Design</title><link href="http://localhost:4000/work/lique" rel="alternate" type="text/html" title="Lique - Mobile App Design" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/lique</id><content type="html" xml:base="http://localhost:4000/work/lique">&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### OBJECTIVES &amp; CHALLENGES
+## OVERVIEW
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;
+      Lique app has two major components: e-commerce and social engagement. Thus One of the major design challenges is to balance all the aspects of the two parts while keeping the user experience consistent. 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;row&quot; width=&quot;30%&quot;&gt;
+  &lt;img src=&quot;../media/lique/overview.png&quot; &gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### CHALLENGES &amp; OPPORTUNITIES
+##  WEARING MUTIPLE HATS
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;In the startup environment, I performed multiple roles in design realm. As an interaction designer, I made user flows and created 80+ pages of high fidelity wireframes; as a visual designer,  I designed user interface mockups and created icon set; as a prototyper, I made interactive prototypes using framer.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/lique/process.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### DESIGN PROCESS
+## RESEARCH &amp; INTERATION DESIGN
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Based on the findings and design recommendations of research on users and market, I create user flows for feature interactions. In addition, I conducted stakeholder interviews and performed competitive analysis. I created over 80+ pages mockups for 8 user flows.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/lique/flow.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### DESIGN &amp; PROTOTYPE
+## INTERACTIVE PROTOTYPE
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Using Framer.js I created interactive prototypes. Here is an example of the purchasing flow prototype.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;iframe src=&quot;http://share.framerjs.com/4uvn6as0dqm3/&quot; width=&quot;100%&quot; height=&quot;600px&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot; &gt;&lt;/iframe&gt;</content><author><name>Julie Li</name></author><summary type="html">OBJECTIVES &amp;amp; CHALLENGES OVERVIEW</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/lique/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Android Onboarding Experience Design</title><link href="http://localhost:4000/work/android" rel="alternate" type="text/html" title="Android Onboarding Experience Design" /><published>2017-03-28T00:00:00-07:00</published><updated>2017-03-28T00:00:00-07:00</updated><id>http://localhost:4000/work/android</id><content type="html" xml:base="http://localhost:4000/work/android">{% include image.html url=&quot;/media/android/logo.png&quot; customeClass='align-center' %}
+
+# ANDROID NEW DEVICE ONBOARDING EXPERIENCE
+
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;
+      Having a new device is exciting but the setup experience can be daunting. For this project, I worked with UX team to create a fluid experience that is secure, fast and consistent with Google overall user experience.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/android/overview.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### OBJECTIVES &amp; CHALLENGES
+## SECURE, FAST, CONSISTENT
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;With new devices some users forget about their existing accounts and would sign up for new accounts, which leads to the proliferation of a large number of inactive user accounts over the years. One of the main goal for this project is to remind users of existing accounts, while taking into account security issues by only providing necessary user information.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/android/features.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### DESIGN PROCESS
+## RESEARCH AND LEARN
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;When designing to improve existing solution, it is important to understand the current product and potentials . Partnered with designers, researchers, and software engineers, I tried to understand the reasons of the final implementations. I gathered information on different user groups and their pain points. I learned Google design principles and identified the ones are most relevant to this project and use them as my guidelines in design stage. (trust, personalized, effortless) Technical implementation (engineering implementation - algorithms, logistics and limitations) &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/android/research.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### Maps &amp; Flow
+##  System Design
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;By laying out the current solution, I identified the decision points from a user’s perspective and then decide the points that requires updates for better user experience. 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/android/maps.png&quot; %}
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### Experience Design
+##  USER JOURNEY
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;After finding the solution, I try to apply it onto a real user and really see the solution from the user’s perspective to identify issues and opportunities.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/android/journey.png&quot; %}
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### Impact &amp; DELIVERABLES
+##  Final Results
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/android/result.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/android/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Google Account UI Front-end Implementation</title><link href="http://localhost:4000/work/google" rel="alternate" type="text/html" title="Google Account UI Front-end Implementation" /><published>2017-03-24T00:00:00-07:00</published><updated>2017-03-24T00:00:00-07:00</updated><id>http://localhost:4000/work/google</id><content type="html" xml:base="http://localhost:4000/work/google">{% include image.html url=&quot;/media/google/id_logo.png&quot; customeClass='align-center' %}
+
+# GOOGLE ACCOUNT UI IMPLEMENTATION
+
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
+    &lt;p&gt;
+      In 2015, Google launched a new identity with stronger emphasis on clean, minimal layouts for frictionless and extensible design. As a result, Google Account sign-in and sign-up flow on all devices and platforms need to be updated. My project is to implement the new design on iOS and macOS.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+{% include image.html url=&quot;/media/google/overview.png&quot; %}
+
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### OBJECTIVES &amp; CHALLENGES
+## USER EXPERIENCE AT HEART
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;As Google’s products touches millions of users everyday and Google Accounts is highly visible on every product, the impact of this project is considerable to both direct consumers and the company as a whole. While developing, we focused on the following aspects.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/id_logo.png&quot; alt=&quot;&quot;&gt;
+    &lt;h5&gt;User Trust&lt;/h5&gt;
+    &lt;p&gt;Implementing new UI across all the platform promotes consistency while enhancing user trust of the new UI while promoting brand recognition. &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/trust_icon.png&quot; alt=&quot;&quot;&gt;
+    &lt;h5&gt;Accessibility&lt;/h5&gt;
+    &lt;p&gt;Great product should be accessible to everyone. I learned the technical practices that provide all users with enjoyable experience.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/scalability_icon.png&quot; alt=&quot;&quot;&gt;
+    &lt;h5&gt;Functionality&lt;/h5&gt;
+    &lt;p&gt;User experience is both about how it looks and how it works. Maintainable and scalable code base is the foundation for a quality product.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### PROCESS &amp; DELIVERABLES
+## COLLABORATION WITH TEAMS
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Implementing projects entails a great deal of team effort. I have frequently attended meetings with PMs, designers, copywriters and engineers to help determine the timeline and level of effort for each task before initiation of a specific task. I also provide detailed documentation to track and explain my process. Languages and technologies I used to deliver my work include Soy (HTML), GSS (CSS), JavaScript.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/google/tech.png&quot; %}
+
+&lt;hr /&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+###### RESULT &amp; IMPACT
+
+## PROJECT LAUNCHING
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;The project launched in November 2016 impacting 2 million users. The code I delivered met of Google’s coding standard and requirements from user experience team. completed supporting tasks for successful launch, including: webdriver tests and test plans, accessibility review, design review and launch plan.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+{% include image.html url=&quot;/media/google/comparison.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/google/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry></feed>

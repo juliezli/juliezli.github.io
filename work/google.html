@@ -1,0 +1,208 @@
+<html>
+	<head>
+	
+	<link href="//gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Google Account UI Front-end Implementation &middot; Julie Li | Product Designer</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato:300,400,700|Oswald:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/styles.css">
+	<link rel="apple-touch-icon" href="http://localhost:4000/assets/images/icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
+	
+	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
+	
+	
+	<!-- Theme Color for Chrome on Android Lollipop -->
+	<meta name="theme-color" content="#302F2D">
+</head>
+
+	<body>
+		<header class="dark" style="background-image: url(/media/google/hero.jpg); height: 70%; " data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%">
+  
+  <label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<p class="menu-title">Julie Li | Product Designer<p>
+	<div class="menu" style="background-color: #1a1a1a; z-index: -1;"></div>
+	
+		<a href="/">Home</a>
+
+	<hr>
+	<a href="https://twitter.com/iancamporez" class="social-links-menu" target="_blank" title="Follow me on twitter"><span class="genericon genericon-twitter"></span></a><a href="https://github.com/camporez" class="social-links-menu" target="_blank" title="Fork me on github"><span class="genericon genericon-github"></span></a><a href="https://www.linkedin.com/in/zhuyingli" class="social-links-menu" target="_blank" title="Add me on Linkedin"><span class="genericon genericon-linkedin"></span></a><a href="https://goo.gl/oLwXG5" class="social-links-menu" target="_blank" title="Resume available"><span class="genericon genericon-resume"></span></a>
+</div>
+
+  <div id="post-info" data-stellar-ratio="0.7">
+    <div class="container">
+      <div class="row">
+         
+            <img class="project-logo" src="/media/google/google_logo.svg" />
+          
+
+          
+            <h2>Worked as UX Engineer Intern in summer 2016 with Google Identity Team. Here showcases my engineering project - Goolge Account UI Front-end Development.</h2>
+          
+      </div>
+    </div>
+   
+  </div>
+  
+  
+  <div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="0.8" class="visible-lg-block">
+    <a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-expand"></span></a>
+  </div>
+</header>
+<div id="middle">
+  <div id="article">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="article-img" class="align-center"><img src="/media/google/id_logo.png" alt="" />
+</div>
+
+<h1 id="google-account-ui-implementation">GOOGLE ACCOUNT UI IMPLEMENTATION</h1>
+
+<div class="row justify-content-md-center">
+  <div class="section-intro col-md-10 col-md-offset-1 col-12">
+    <p>
+      In 2015, Google launched a new identity with stronger emphasis on clean, minimal layouts for frictionless and extensible design. As a result, Google Account sign-in and sign-up flow on all devices and platforms need to be updated. My project is to implement the new design on iOS and macOS.
+    </p>
+  </div>
+</div>
+
+<div class="section-separator"></div>
+<div id="article-img"><img src="/media/google/overview.png" alt="" />
+</div>
+
+<hr />
+
+<div class="container">
+  <div class="number number--1"></div>
+</div>
+<h6 id="objectives--challenges">OBJECTIVES &amp; CHALLENGES</h6>
+<h2 id="user-experience-at-heart">USER EXPERIENCE AT HEART</h2>
+
+<div class="row">
+  <div class="section-intro col-lg-10 col-md-10 col-12">
+    <p>As Google’s products touches millions of users everyday and Google Accounts is highly visible on every product, the impact of this project is considerable to both direct consumers and the company as a whole. While developing, we focused on the following aspects.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="feature col-lg-4 col-12">
+    <img src="../media/google/id_logo.png" alt="" />
+    <h5>User Trust</h5>
+    <p>Implementing new UI across all the platform promotes consistency while enhancing user trust of the new UI while promoting brand recognition. </p>
+  </div>
+  <div class="feature col-lg-4 col-12">
+    <img src="../media/google/trust_icon.png" alt="" />
+    <h5>Accessibility</h5>
+    <p>Great product should be accessible to everyone. I learned the technical practices that provide all users with enjoyable experience.</p>
+  </div>
+  <div class="feature col-lg-4 col-12">
+    <img src="../media/google/scalability_icon.png" alt="" />
+    <h5>Functionality</h5>
+    <p>User experience is both about how it looks and how it works. Maintainable and scalable code base is the foundation for a quality product.</p>
+  </div>
+</div>
+
+<hr />
+
+<div class="container">
+  <div class="number number--2"></div>
+</div>
+<h6 id="process--deliverables">PROCESS &amp; DELIVERABLES</h6>
+<h2 id="collaboration-with-teams">COLLABORATION WITH TEAMS</h2>
+
+<div class="row">
+  <div class="section-intro col-lg-10 col-md-10 col-12">
+    <p>Implementing projects entails a great deal of team effort. I have frequently attended meetings with PMs, designers, copywriters and engineers to help determine the timeline and level of effort for each task before initiation of a specific task. I also provide detailed documentation to track and explain my process. Languages and technologies I used to deliver my work include Soy (HTML), GSS (CSS), JavaScript.
+    </p>
+  </div>
+</div>
+<div class="section-separator"></div>
+
+<div id="article-img"><img src="/media/google/tech.png" alt="" />
+</div>
+
+<hr />
+
+<div class="container">
+  <div class="number number--3"></div>
+</div>
+<h6 id="result--impact">RESULT &amp; IMPACT</h6>
+
+<h2 id="project-launching">PROJECT LAUNCHING</h2>
+
+<div class="row">
+  <div class="section-intro col-12">
+    <p>The project launched in November 2016 impacting 2 million users. The code I delivered met of Google’s coding standard and requirements from user experience team. completed supporting tasks for successful launch, including: webdriver tests and test plans, accessibility review, design review and launch plan.
+    </p>
+  </div>
+</div>
+<div class="section-separator"></div>
+
+<div id="article-img"><img src="/media/google/comparison.png" alt="" />
+</div>
+
+          <div id="project-section" >
+  <img src="" alt="" />
+  
+</div>
+          
+          
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid end text-center">
+  <small>the end - by julie with ❤</small>
+</div>
+
+
+
+
+
+<footer class="dark" style="background-image: url(/media/android/hero.jpg); height: 25%;background-attachment: fixed" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%" data-stellar-vertical-offset="-20">
+  <div id="nav-icon" data-stellar-ratio="0.8">
+    <a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
+  </div>
+  <div id="post-info">
+    <h3>Read next</h3>
+    <a href="/work/android">
+      <h1>Android Onboarding Experience Design</h1>
+      
+        <h2></h2>
+      
+    </a>
+  </div>
+  <small class="copyright">&copy;2017, Julie Li. All rights reserved.</small>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
+
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+			$.stellar({
+				responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+			});
+		});
+		</script>
+	</body>
+</html>
