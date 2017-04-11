@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-01T16:27:17-07:00</updated><id>http://localhost:4000/</id><title type="html">Julie Li | Product Designer</title><subtitle>Julie Zhuying Li Portfolio</subtitle><author><name>Julie Li</name></author><entry><title type="html">Transitional Resources Website Redesign</title><link href="http://localhost:4000/work/tr" rel="alternate" type="text/html" title="Transitional Resources Website Redesign" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/tr</id><content type="html" xml:base="http://localhost:4000/work/tr">{% include image.html url=&quot;/media/tr/tr_logo_small.svg&quot; customeClass='align-center' %}
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-11T11:27:38-07:00</updated><id>http://localhost:4000/</id><title type="html">Julie Li | Product Designer</title><subtitle>Julie Zhuying Li Portfolio</subtitle><author><name>Julie Li</name></author><entry><title type="html">Transitional Resources Website Redesign</title><link href="http://localhost:4000/work/tr" rel="alternate" type="text/html" title="Transitional Resources Website Redesign" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/tr</id><content type="html" xml:base="http://localhost:4000/work/tr">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/tr/tr_logo_small.svg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
-# Transitional Resources Website Redesign
+&lt;h1 id=&quot;transitional-resources-website-redesign&quot;&gt;Transitional Resources Website Redesign&lt;/h1&gt;
 
 &lt;div class=&quot;row justify-content-md-center&quot;&gt;
   &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
@@ -12,15 +13,16 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/overview.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### PROCESS &amp; CHALLENGES
-## USER CENTERED DESIGN PROCESS
+&lt;h6 id=&quot;process--challenges&quot;&gt;PROCESS &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;user-centered-design-process&quot;&gt;USER CENTERED DESIGN PROCESS&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -31,14 +33,16 @@
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/tr/tr-process.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/tr-process.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### USER RESEARCH &amp; DATA ANALYSIS
-## RESEARCH ANALYSIS
+&lt;h6 id=&quot;user-research--data-analysis&quot;&gt;USER RESEARCH &amp;amp; DATA ANALYSIS&lt;/h6&gt;
+&lt;h2 id=&quot;research-analysis&quot;&gt;RESEARCH ANALYSIS&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -48,9 +52,9 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/research.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/research.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -58,15 +62,17 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/research-persona.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/research-persona.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-###### Design &amp; Evaluate
-## IDEATION &amp;  PROTOTYPE
+&lt;h6 id=&quot;design--evaluate&quot;&gt;Design &amp;amp; Evaluate&lt;/h6&gt;
+&lt;h2 id=&quot;ideation---prototype&quot;&gt;IDEATION &amp;amp;  PROTOTYPE&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
@@ -75,16 +81,19 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/paper-proto.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/paper-proto.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/lo-fi.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/lo-fi.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### DESIGN SOLUTIONS
-## DESIGN PRINCIPLES
+&lt;h6 id=&quot;design-solutions&quot;&gt;DESIGN SOLUTIONS&lt;/h6&gt;
+&lt;h2 id=&quot;design-principles&quot;&gt;DESIGN PRINCIPLES&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
     &lt;p&gt;Design principles are crucial guidelines to the team for building empathy for users. We studied a series of design principles before creating our own, such as Facebook Design Principles, Dieter Ram’s Ten Principles for Good Design etc. We then synthesized and created our own version. &lt;/p&gt;
@@ -95,28 +104,28 @@
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
     &lt;div class=&quot;img-icon&quot;&gt;
-      &lt;img src=&quot;../media/tr/heart.svg&quot; alt=&quot;&quot;&gt;
+      &lt;img src=&quot;../media/tr/heart.svg&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;Inspirational&lt;/h5&gt;
     &lt;p&gt;Our design should encourage and motivate people to get involved due to the cause and impact of the organization. &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
     &lt;div class=&quot;img-icon&quot;&gt;
-      &lt;img src=&quot;../media/tr/eye.svg&quot; alt=&quot;&quot;&gt;
+      &lt;img src=&quot;../media/tr/eye.svg&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;Transparent&lt;/h5&gt;
     &lt;p&gt;What the organization does and the impact of users’ contributions should be understandable.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
     &lt;div class=&quot;img-icon&quot;&gt;
-      &lt;img src=&quot;../media/tr/bulb.svg&quot; alt=&quot;&quot;&gt;
+      &lt;img src=&quot;../media/tr/bulb.svg&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;Predictable&lt;/h5&gt;
     &lt;p&gt;To help expedite users’ actions, our design should be consistent, simple, clear and clean &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
     &lt;div class=&quot;img-icon&quot;&gt;
-      &lt;img src=&quot;../media/tr/earth.svg&quot; alt=&quot;&quot;&gt;
+      &lt;img src=&quot;../media/tr/earth.svg&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;Accessible&lt;/h5&gt;
     &lt;p&gt;Our design must be usable and meet the needs of people with different capacities&lt;/p&gt;
@@ -124,12 +133,13 @@
 &lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-###### Design Solutions
-## Visual Design
+&lt;h6 id=&quot;design-solutions-1&quot;&gt;Design Solutions&lt;/h6&gt;
+&lt;h2 id=&quot;visual-design&quot;&gt;Visual Design&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
@@ -141,27 +151,29 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/visual-design.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/visual-design.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--6&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-###### Design Solutions
-## INTERACTIVE PROTOTYPE
+&lt;h6 id=&quot;design-solutions-2&quot;&gt;Design Solutions&lt;/h6&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;INTERACTIVE PROTOTYPE&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
     &lt;p&gt;After 3 rounds of visual design iterations, we produced an interactive prototype comprised of 7 unique page layouts implemented using InVision. Based on the hard work aforementioned, these are the results of our final Hi-Fi prototype. Starting from the hero images, in order to inspire, we want to use human elements and factual numbers to encourage and motivate people to get involved. To ensure transparency, we help users understand how small donations can make a real impact in improving someone’s life. &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/tr/prototype.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/tr/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry><entry><title type="html">Lique - Mobile App Design</title><link href="http://localhost:4000/work/lique" rel="alternate" type="text/html" title="Lique - Mobile App Design" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/lique</id><content type="html" xml:base="http://localhost:4000/work/lique">&lt;div class=&quot;container&quot;&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/prototype.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/tr/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry><entry><title type="html">Lique - Mobile App Design</title><link href="http://localhost:4000/work/lique" rel="alternate" type="text/html" title="Lique - Mobile App Design" /><published>2017-03-29T00:00:00-07:00</published><updated>2017-03-29T00:00:00-07:00</updated><id>http://localhost:4000/work/lique</id><content type="html" xml:base="http://localhost:4000/work/lique">&lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### OBJECTIVES &amp; CHALLENGES
-## OVERVIEW
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;overview&quot;&gt;OVERVIEW&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -172,15 +184,16 @@
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 &lt;div class=&quot;row&quot; width=&quot;30%&quot;&gt;
-  &lt;img src=&quot;../media/lique/overview.png&quot; &gt;
+  &lt;img src=&quot;../media/lique/overview.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### CHALLENGES &amp; OPPORTUNITIES
-##  WEARING MUTIPLE HATS
+&lt;h6 id=&quot;challenges--opportunities&quot;&gt;CHALLENGES &amp;amp; OPPORTUNITIES&lt;/h6&gt;
+&lt;h2 id=&quot;wearing-mutiple-hats&quot;&gt;WEARING MUTIPLE HATS&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -188,37 +201,42 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/lique/process.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/lique/process.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### DESIGN PROCESS
-## RESEARCH &amp; INTERATION DESIGN
+&lt;h6 id=&quot;design-process&quot;&gt;DESIGN PROCESS&lt;/h6&gt;
+&lt;h2 id=&quot;research--interation-design&quot;&gt;RESEARCH &amp;amp; INTERATION DESIGN&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
     &lt;p&gt;Based on the findings and design recommendations of research on users and market, I create user flows for feature interactions. In addition, I conducted stakeholder interviews and performed competitive analysis. I created over 80+ pages mockups for 8 user flows.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/lique/flow.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/lique/flow.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### DESIGN &amp; PROTOTYPE
-## INTERACTIVE PROTOTYPE
+&lt;h6 id=&quot;design--prototype&quot;&gt;DESIGN &amp;amp; PROTOTYPE&lt;/h6&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;INTERACTIVE PROTOTYPE&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
     &lt;p&gt;Using Framer.js I created interactive prototypes. Here is an example of the purchasing flow prototype.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-&lt;iframe src=&quot;http://share.framerjs.com/4uvn6as0dqm3/&quot; width=&quot;100%&quot; height=&quot;600px&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot; &gt;&lt;/iframe&gt;</content><author><name>Julie Li</name></author><summary type="html">OBJECTIVES &amp;amp; CHALLENGES OVERVIEW</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/lique/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Android Onboarding Experience Design</title><link href="http://localhost:4000/work/android" rel="alternate" type="text/html" title="Android Onboarding Experience Design" /><published>2017-03-28T00:00:00-07:00</published><updated>2017-03-28T00:00:00-07:00</updated><id>http://localhost:4000/work/android</id><content type="html" xml:base="http://localhost:4000/work/android">{% include image.html url=&quot;/media/android/logo.png&quot; customeClass='align-center' %}
+&lt;iframe src=&quot;http://share.framerjs.com/4uvn6as0dqm3/&quot; width=&quot;100%&quot; height=&quot;600px&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</content><author><name>Julie Li</name></author><summary type="html">OBJECTIVES &amp;amp; CHALLENGES OVERVIEW</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/lique/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Android Onboarding Experience Design</title><link href="http://localhost:4000/work/android" rel="alternate" type="text/html" title="Android Onboarding Experience Design" /><published>2017-03-28T00:00:00-07:00</published><updated>2017-03-28T00:00:00-07:00</updated><id>http://localhost:4000/work/android</id><content type="html" xml:base="http://localhost:4000/work/android">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/android/logo.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
-# ANDROID NEW DEVICE ONBOARDING EXPERIENCE
+&lt;h1 id=&quot;android-new-device-onboarding-experience&quot;&gt;ANDROID NEW DEVICE ONBOARDING EXPERIENCE&lt;/h1&gt;
 
 &lt;div class=&quot;row justify-content-md-center&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
@@ -230,15 +248,16 @@
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/android/overview.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### OBJECTIVES &amp; CHALLENGES
-## SECURE, FAST, CONSISTENT
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;secure-fast-consistent&quot;&gt;SECURE, FAST, CONSISTENT&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -246,15 +265,16 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/android/features.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/features.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### DESIGN PROCESS
-## RESEARCH AND LEARN
+&lt;h6 id=&quot;design-process&quot;&gt;DESIGN PROCESS&lt;/h6&gt;
+&lt;h2 id=&quot;research-and-learn&quot;&gt;RESEARCH AND LEARN&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -262,15 +282,16 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/android/research.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/research.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### Maps &amp; Flow
-##  System Design
+&lt;h6 id=&quot;maps--flow&quot;&gt;Maps &amp;amp; Flow&lt;/h6&gt;
+&lt;h2 id=&quot;system-design&quot;&gt;System Design&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -280,15 +301,16 @@
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/android/maps.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/maps.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### Experience Design
-##  USER JOURNEY
+&lt;h6 id=&quot;experience-design&quot;&gt;Experience Design&lt;/h6&gt;
+&lt;h2 id=&quot;user-journey&quot;&gt;USER JOURNEY&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -298,21 +320,24 @@
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/android/journey.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/journey.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### Impact &amp; DELIVERABLES
-##  Final Results
+&lt;h6 id=&quot;impact--deliverables&quot;&gt;Impact &amp;amp; DELIVERABLES&lt;/h6&gt;
+&lt;h2 id=&quot;final-results&quot;&gt;Final Results&lt;/h2&gt;
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/android/result.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/android/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Google Account UI Front-end Implementation</title><link href="http://localhost:4000/work/google" rel="alternate" type="text/html" title="Google Account UI Front-end Implementation" /><published>2017-03-24T00:00:00-07:00</published><updated>2017-03-24T00:00:00-07:00</updated><id>http://localhost:4000/work/google</id><content type="html" xml:base="http://localhost:4000/work/google">{% include image.html url=&quot;/media/google/id_logo.png&quot; customeClass='align-center' %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/result.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/android/hero.jpg%22,%20%22width%22=%3E%2250%25%22%7D" /></entry><entry><title type="html">Google Account UI Front-end Implementation</title><link href="http://localhost:4000/work/google" rel="alternate" type="text/html" title="Google Account UI Front-end Implementation" /><published>2017-03-24T00:00:00-07:00</published><updated>2017-03-24T00:00:00-07:00</updated><id>http://localhost:4000/work/google</id><content type="html" xml:base="http://localhost:4000/work/google">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/google/id_logo.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
-# GOOGLE ACCOUNT UI IMPLEMENTATION
+&lt;h1 id=&quot;google-account-ui-implementation&quot;&gt;GOOGLE ACCOUNT UI IMPLEMENTATION&lt;/h1&gt;
 
 &lt;div class=&quot;row justify-content-md-center&quot;&gt;
   &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
@@ -323,15 +348,16 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
-{% include image.html url=&quot;/media/google/overview.png&quot; %}
-
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### OBJECTIVES &amp; CHALLENGES
-## USER EXPERIENCE AT HEART
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;user-experience-at-heart&quot;&gt;USER EXPERIENCE AT HEART&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -342,28 +368,29 @@
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
-    &lt;img src=&quot;../media/google/id_logo.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;../media/google/id_logo.png&quot; alt=&quot;&quot; /&gt;
     &lt;h5&gt;User Trust&lt;/h5&gt;
     &lt;p&gt;Implementing new UI across all the platform promotes consistency while enhancing user trust of the new UI while promoting brand recognition. &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
-    &lt;img src=&quot;../media/google/trust_icon.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;../media/google/trust_icon.png&quot; alt=&quot;&quot; /&gt;
     &lt;h5&gt;Accessibility&lt;/h5&gt;
     &lt;p&gt;Great product should be accessible to everyone. I learned the technical practices that provide all users with enjoyable experience.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
-    &lt;img src=&quot;../media/google/scalability_icon.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;../media/google/scalability_icon.png&quot; alt=&quot;&quot; /&gt;
     &lt;h5&gt;Functionality&lt;/h5&gt;
     &lt;p&gt;User experience is both about how it looks and how it works. Maintainable and scalable code base is the foundation for a quality product.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### PROCESS &amp; DELIVERABLES
-## COLLABORATION WITH TEAMS
+&lt;h6 id=&quot;process--deliverables&quot;&gt;PROCESS &amp;amp; DELIVERABLES&lt;/h6&gt;
+&lt;h2 id=&quot;collaboration-with-teams&quot;&gt;COLLABORATION WITH TEAMS&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
@@ -373,15 +400,17 @@
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/google/tech.png&quot; %}
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/tech.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
+
 &lt;div class=&quot;container&quot;&gt;
   &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
-###### RESULT &amp; IMPACT
+&lt;h6 id=&quot;result--impact&quot;&gt;RESULT &amp;amp; IMPACT&lt;/h6&gt;
 
-## PROJECT LAUNCHING
+&lt;h2 id=&quot;project-launching&quot;&gt;PROJECT LAUNCHING&lt;/h2&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;section-intro col-12&quot;&gt;
@@ -391,4 +420,5 @@
 &lt;/div&gt;
 &lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
 
-{% include image.html url=&quot;/media/google/comparison.png&quot; %}</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/google/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry></feed>
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/comparison.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;</content><author><name>Julie Li</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22url%22=%3E%22/media/google/hero.jpg%22,%20%22width%22=%3E%22100%25%22%7D" /></entry></feed>

@@ -4,7 +4,7 @@
  <title>Julie Li | Product Designer</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-03-22T00:14:59-07:00</updated>
+ <updated>2017-04-11T11:27:38-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Julie Li</name>
@@ -13,220 +13,461 @@
 
  
  <entry>
-   <title>Hello, Cosette</title>
-   <link href="http://localhost:4000/blog/hello-cosette"/>
-   <updated>2014-02-27T00:00:00-08:00</updated>
-   <id>http://localhost:4000/blog/hello-cosette</id>
-   <content type="html">&lt;p&gt;#Thinny 2.1, codename “&lt;a href=&quot;http://lesmiserables.wikia.com/wiki/Cosette&quot;&gt;Cosette&lt;/a&gt;”&lt;/p&gt;
-
-&lt;p&gt;Cosette is the main character of the french novel &lt;em&gt;Les Misérables&lt;/em&gt;, published in 1862 by &lt;em&gt;Victor Hugo&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-02-27-hello-cosette/cosette.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-02-27-hello-cosette/cosette.jpg&quot; alt=&quot;Amanda Seyfried as Cosette on the 2012 movie.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Amanda Seyfried as Cosette on the 2012 movie.&lt;/blockquote&gt;&lt;/div&gt;
-
-&lt;p&gt;This new version of Thinny comes with mobile support and some bugfixes.&lt;/p&gt;
-
-&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
-
-&lt;h3 id=&quot;main-variables&quot;&gt;Main variables&lt;/h3&gt;
-
-&lt;p&gt;The global variables are set on the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; file.&lt;/p&gt;
-
-&lt;p&gt;To start, you need to change at least the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;url&lt;/code&gt; on the file.&lt;/p&gt;
-
-&lt;h4 id=&quot;social-links&quot;&gt;Social links&lt;/h4&gt;
-
-&lt;p&gt;To add a social link you just need to add the following code inside the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;social&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - icon:   [the genericon name for the social network]
-    url:    [the url to follow]
-    desc:   [a small description for the link (e.g. &quot;Follow me on twitter&quot;)]
-&lt;/code&gt;&lt;/pre&gt;
+   <title>Transitional Resources Website Redesign</title>
+   <link href="http://localhost:4000/work/tr"/>
+   <updated>2017-03-29T00:00:00-07:00</updated>
+   <id>http://localhost:4000/work/tr</id>
+   <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/tr/tr_logo_small.svg&quot; alt=&quot;&quot; /&gt;
 &lt;/div&gt;
 
-&lt;h4 id=&quot;menu&quot;&gt;Menu&lt;/h4&gt;
+&lt;h1 id=&quot;transitional-resources-website-redesign&quot;&gt;Transitional Resources Website Redesign&lt;/h1&gt;
 
-&lt;p&gt;To add a menu item you just need to add the following code inside the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;menu&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - title:  [title of the menu item]
-    url:    [the url to follow]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
+    &lt;p&gt;
+      Our client, Transitional Resources (TR), is a small licensed mental health center in King County, Seattle WA, offering a continuum of mental health treatment, housing, and vocational services to those who are most in need. We goal is to better communicate the organization’s purpose, services, and achievements to their target audience.
+    &lt;/p&gt;
+    &lt;p&gt;Implementing UCD process, we identified challenges, brainstormed our solutions, performed user testing, and iterated to optimize our solutions.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h4 id=&quot;others&quot;&gt;Others&lt;/h4&gt;
-
-&lt;p&gt;You’ll find a lot of other variables inside the file, e.g.:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the site &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;icon&lt;/code&gt; and default &lt;code class=&quot;highlighter-rouge&quot;&gt;cover&lt;/code&gt; image.&lt;/li&gt;
-  &lt;li&gt;text of the &lt;code class=&quot;highlighter-rouge&quot;&gt;copyright&lt;/code&gt; message.&lt;/li&gt;
-  &lt;li&gt;the number of posts per page (&lt;code class=&quot;highlighter-rouge&quot;&gt;paginate&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;the &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink&lt;/code&gt;’s structure (see &lt;a href=&quot;http://jekyllrb.com/docs/pagination/&quot;&gt;the docs&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;default-yaml-tags&quot;&gt;Default YAML tags&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout:&lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;post, page&lt;/code&gt;&lt;/i&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;or &lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fullscreen&lt;/code&gt;&lt;/i&gt;: defines the layout of the page.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title: [string]&lt;/code&gt;: title of the post.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;quote: [string]&lt;/code&gt;: a small description of the post to be shown above the title.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dark:&lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;&lt;/i&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;or &lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;&lt;/i&gt;: use black font (instead of white) for the header (default value is false).&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;image: [url] or &lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;&lt;/i&gt;: a cover image for the post (default value is &lt;em&gt;false&lt;/em&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;video:&lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;&lt;/i&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;or &lt;/code&gt;&lt;i&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;&lt;/i&gt;: add a cover video for the post (default value is &lt;em&gt;false&lt;/em&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;video_mp4: [url]&lt;/code&gt;: the URL for the mp4 video.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;video_webm: [url]&lt;/code&gt;: the URL for the webm video.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;video_ogv: [url]&lt;/code&gt;: the URL for the ogv video.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;versions&quot;&gt;Versions&lt;/h2&gt;
-
-&lt;p&gt;Here is a table with all Thinny’s versions:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Version&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Codename&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Platform&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Release date&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra&quot;&gt;0.3&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://nikita2010.wikia.com/wiki/Alexandra_Udinov&quot;&gt;Alexandra&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Ghost 0.3.x&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;November 2013&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/camporez/Thinny/releases/tag/v2.0-bianca&quot;&gt;2.0&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm&quot;&gt;Bianca&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;January 2014&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/camporez/Thinny/releases/tag/v2.1-cosette&quot;&gt;2.1&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://lesmiserables.wikia.com/wiki/Cosette&quot;&gt;Cosette&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;February 2014&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Dolores_Haze&quot;&gt;Dolores&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;Soon…&lt;/em&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Thinny 2.1 is already &lt;a href=&quot;https://github.com/camporez/Thinny/releases&quot;&gt;available for download on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;Want to see something else added or report a bug? &lt;a href=&quot;https://github.com/camporez/camporez.github.io/issues/new&quot;&gt;Open an issue&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This file is placed in your root directory. It’s the main file of configuration. For more information, read &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;the docs&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;See the &lt;a href=&quot;https://github.com/camporez/camporez.github.io/issues?milestone=3&quot;&gt;issues list&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;process--challenges&quot;&gt;PROCESS &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;user-centered-design-process&quot;&gt;USER CENTERED DESIGN PROCESS&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;We started the project by interviewing the stakeholders to understand their business goals, branding, and targeted user groups. We carefully selected our research methods to maximize results based on time and budget constraints. The methods include heuristic evaluation, survey design, and analysis, interviews, web analytics.&lt;/p&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/tr-process.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;user-research--data-analysis&quot;&gt;USER RESEARCH &amp;amp; DATA ANALYSIS&lt;/h6&gt;
+&lt;h2 id=&quot;research-analysis&quot;&gt;RESEARCH ANALYSIS&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;We collected a total of 23 survey responses, 153 Google Analytics sessions, 6 interviews, and 22 card sorting sessions that provide insights into user habits for making donations online or looking for volunteer opportunities online, motivations for using the website to volunteer/donate or other purposes.&lt;/p&gt;
+    &lt;p&gt;For card sorting sessions, we prepared 45 cards on current and future contents and gathered 22 feedback. We then used Participant-centric Analysis to get a high-level understanding of your card sort data and provides actionable insights. The card sorting results greatly helped us with information architecture.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/research.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Our research suggested our primary users will be donors and volunteers. We created personas, user tasks, and metrics. Debbie is our Donor persona. Her goal is to make a contribution with a positive impact on the mental illness/homeless community. Vince is our Volunteer persona. His goal is to volunteer at an organization that positively impacts the community. To inspire our users, we decided to highlight organization’s mission, shared values, and legitimacy of TR.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/research-persona.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;design--evaluate&quot;&gt;Design &amp;amp; Evaluate&lt;/h6&gt;
+&lt;h2 id=&quot;ideation---prototype&quot;&gt;IDEATION &amp;amp;  PROTOTYPE&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;Based on our research, we started ideation session. We sketched and white boarded our idea to quickly generate as many solutions as we could. And then gradually increase fidelity to refine our design based on usability tests.&lt;/p&gt;
+    &lt;p&gt;As we began building our prototype and doing usability testing, we further refined the sitemap so that sections under nav items were all on the same page and re-collapsed volunteering and donating sections. The final sitemap also has more technical considerations, such as length of top navigation.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/paper-proto.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/lo-fi.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;design-solutions&quot;&gt;DESIGN SOLUTIONS&lt;/h6&gt;
+&lt;h2 id=&quot;design-principles&quot;&gt;DESIGN PRINCIPLES&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;Design principles are crucial guidelines to the team for building empathy for users. We studied a series of design principles before creating our own, such as Facebook Design Principles, Dieter Ram’s Ten Principles for Good Design etc. We then synthesized and created our own version. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/heart.svg&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Inspirational&lt;/h5&gt;
+    &lt;p&gt;Our design should encourage and motivate people to get involved due to the cause and impact of the organization. &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/eye.svg&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Transparent&lt;/h5&gt;
+    &lt;p&gt;What the organization does and the impact of users’ contributions should be understandable.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/bulb.svg&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Predictable&lt;/h5&gt;
+    &lt;p&gt;To help expedite users’ actions, our design should be consistent, simple, clear and clean &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-3 col-md-6 col-12&quot;&gt;
+    &lt;div class=&quot;img-icon&quot;&gt;
+      &lt;img src=&quot;../media/tr/earth.svg&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;Accessible&lt;/h5&gt;
+    &lt;p&gt;Our design must be usable and meet the needs of people with different capacities&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;design-solutions-1&quot;&gt;Design Solutions&lt;/h6&gt;
+&lt;h2 id=&quot;visual-design&quot;&gt;Visual Design&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;A successful website should be both functional and aesthetically pleasing. In the final design stage, we explored different options on color schemes, typography, imageries, then established a design style guide for our client. The design decisions we made heavily rely on research activities we performed, which boil down to the four design principles we build for TR: Inspirational, Transparent, Predictable, and Accessible.&lt;/p&gt;
+
+    &lt;p&gt;We studied a variety of non-profit websites to inspire and inform our design. We identified some common patterns as current best design practices. We also explored different typography combinations and finally chose Roboto as it is a modern, yet accessible, web friendly font.&lt;/p&gt;
+
+    &lt;p&gt;Our client requests us to refresh the current branding based on their existing logo. Although we were not able to produce brand strategy due to time constraint, we added a secondary Aqua color to revive the brand image while preserving the existing recognized brand image.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/visual-design.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--6&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;design-solutions-2&quot;&gt;Design Solutions&lt;/h6&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;INTERACTIVE PROTOTYPE&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;After 3 rounds of visual design iterations, we produced an interactive prototype comprised of 7 unique page layouts implemented using InVision. Based on the hard work aforementioned, these are the results of our final Hi-Fi prototype. Starting from the hero images, in order to inspire, we want to use human elements and factual numbers to encourage and motivate people to get involved. To ensure transparency, we help users understand how small donations can make a real impact in improving someone’s life. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/tr/prototype.png&quot; alt=&quot;&quot; /&gt;
 &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Thinny 2: a Jekyll theme</title>
-   <link href="http://localhost:4000/blog/thinny-2"/>
-   <updated>2014-01-22T00:00:00-08:00</updated>
-   <id>http://localhost:4000/blog/thinny-2</id>
-   <content type="html">&lt;p&gt;Three months ago, I released an (unfinished) theme for Ghost 0.3: &lt;a href=&quot;http://github.com/camporez/Thinny&quot;&gt;Thinny 0.3&lt;/a&gt;, codename “&lt;a href=&quot;http://nikita2010.wikia.com/wiki/Alexandra_Udinov&quot;&gt;Alexandra&lt;/a&gt;”.
-But now I’m migrating my blog to Jekyll, and also migrating the theme. With a brand new look, Thinny 2 also brings a lot of new features and polishment. Actually, it was completely remaked.&lt;/p&gt;
+   <title>Lique - Mobile App Design</title>
+   <link href="http://localhost:4000/work/lique"/>
+   <updated>2017-03-29T00:00:00-07:00</updated>
+   <id>http://localhost:4000/work/lique</id>
+   <content type="html">&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;overview&quot;&gt;OVERVIEW&lt;/h2&gt;
 
-&lt;p&gt;#Thinny 2.0, codename “&lt;a href=&quot;http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm&quot;&gt;Bianca&lt;/a&gt;”&lt;/p&gt;
-
-&lt;p&gt;This new version of Thinny goes deeper with the &lt;a href=&quot;http://ghost-camporez.rhcloud.com/making-applications-icon-smaller-on-gnome-shells-top-panel/&quot;&gt;initial idea&lt;/a&gt; of a big image before the post. As the saying goes, &lt;cite&gt;a picture is worth a thousand words&lt;/cite&gt;, so we expanded the concept. I mean, literally. The post image (or video!) is now full width and full height, and can be easily add with the use of a variable.&lt;/p&gt;
-
-&lt;p&gt;##Features&lt;/p&gt;
-
-&lt;h3 id=&quot;lists-and-text-formatting&quot;&gt;Lists and text formatting&lt;/h3&gt;
-
-&lt;p&gt;You can use various HTML tags:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Julie Li | Product Designer&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;###Messages, code and images&lt;/p&gt;
-
-&lt;div class=&quot;message&quot;&gt;This is a &lt;strong&gt;warning&lt;/strong&gt; message. Now, you can keep falling in love with this theme...&lt;/div&gt;
-
-&lt;p&gt;You can add &lt;code class=&quot;highlighter-rouge&quot;&gt;code elements&lt;/code&gt; with highlight support:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/media/2014-01-22-thinny-2/bianca.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;100&amp;#37;&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Image captions are supported out of the box. Brilliant!&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Will output this:&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-01-22-thinny-2/bianca.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-01-22-thinny-2/bianca.jpg&quot; alt=&quot;Image captions are supported out of the box. Brilliant!&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Image captions are supported out of the box. Brilliant!&lt;/blockquote&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;table&quot;&gt;Table&lt;/h3&gt;
-
-&lt;p&gt;Thinny also support html tag &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt;:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Version&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Codename&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Platform&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra&quot;&gt;0.3&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://nikita2010.wikia.com/wiki/Alexandra_Udinov&quot;&gt;Alexandra&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Ghost 0.3.x&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/camporez/Thinny/releases/tag/v2.0-bianca&quot;&gt;2.0&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm&quot;&gt;Bianca&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://lesmiserables.wikia.com/wiki/Cosette&quot;&gt;Cosette&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;mobile-version&quot;&gt;Mobile version&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Coming soon…&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;quote&quot;&gt;Quote&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Did you liked it? You can &lt;a href=&quot;https://github.com/camporez/Thinny/releases&quot;&gt;download Thinny on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;
+      Lique app has two major components: e-commerce and social engagement. Thus One of the major design challenges is to balance all the aspects of the two parts while keeping the user experience consistent. 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;row&quot; width=&quot;30%&quot;&gt;
+  &lt;img src=&quot;../media/lique/overview.png&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/camporez/camporez.github.io/issues/new&quot;&gt;Open an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;challenges--opportunities&quot;&gt;CHALLENGES &amp;amp; OPPORTUNITIES&lt;/h6&gt;
+&lt;h2 id=&quot;wearing-mutiple-hats&quot;&gt;WEARING MUTIPLE HATS&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;In the startup environment, I performed multiple roles in design realm. As an interaction designer, I made user flows and created 80+ pages of high fidelity wireframes; as a visual designer,  I designed user interface mockups and created icon set; as a prototyper, I made interactive prototypes using framer.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/lique/process.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;design-process&quot;&gt;DESIGN PROCESS&lt;/h6&gt;
+&lt;h2 id=&quot;research--interation-design&quot;&gt;RESEARCH &amp;amp; INTERATION DESIGN&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Based on the findings and design recommendations of research on users and market, I create user flows for feature interactions. In addition, I conducted stakeholder interviews and performed competitive analysis. I created over 80+ pages mockups for 8 user flows.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/lique/flow.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;design--prototype&quot;&gt;DESIGN &amp;amp; PROTOTYPE&lt;/h6&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;INTERACTIVE PROTOTYPE&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Using Framer.js I created interactive prototypes. Here is an example of the purchasing flow prototype.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;iframe src=&quot;http://share.framerjs.com/4uvn6as0dqm3/&quot; width=&quot;100%&quot; height=&quot;600px&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Android Onboarding Experience Design</title>
+   <link href="http://localhost:4000/work/android"/>
+   <updated>2017-03-28T00:00:00-07:00</updated>
+   <id>http://localhost:4000/work/android</id>
+   <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/android/logo.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;android-new-device-onboarding-experience&quot;&gt;ANDROID NEW DEVICE ONBOARDING EXPERIENCE&lt;/h1&gt;
+
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;
+      Having a new device is exciting but the setup experience can be daunting. For this project, I worked with UX team to create a fluid experience that is secure, fast and consistent with Google overall user experience.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;secure-fast-consistent&quot;&gt;SECURE, FAST, CONSISTENT&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;With new devices some users forget about their existing accounts and would sign up for new accounts, which leads to the proliferation of a large number of inactive user accounts over the years. One of the main goal for this project is to remind users of existing accounts, while taking into account security issues by only providing necessary user information.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/features.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;design-process&quot;&gt;DESIGN PROCESS&lt;/h6&gt;
+&lt;h2 id=&quot;research-and-learn&quot;&gt;RESEARCH AND LEARN&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;When designing to improve existing solution, it is important to understand the current product and potentials . Partnered with designers, researchers, and software engineers, I tried to understand the reasons of the final implementations. I gathered information on different user groups and their pain points. I learned Google design principles and identified the ones are most relevant to this project and use them as my guidelines in design stage. (trust, personalized, effortless) Technical implementation (engineering implementation - algorithms, logistics and limitations) &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/research.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;maps--flow&quot;&gt;Maps &amp;amp; Flow&lt;/h6&gt;
+&lt;h2 id=&quot;system-design&quot;&gt;System Design&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;By laying out the current solution, I identified the decision points from a user’s perspective and then decide the points that requires updates for better user experience. 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/maps.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;experience-design&quot;&gt;Experience Design&lt;/h6&gt;
+&lt;h2 id=&quot;user-journey&quot;&gt;USER JOURNEY&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;After finding the solution, I try to apply it onto a real user and really see the solution from the user’s perspective to identify issues and opportunities.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/journey.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--5&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;impact--deliverables&quot;&gt;Impact &amp;amp; DELIVERABLES&lt;/h6&gt;
+&lt;h2 id=&quot;final-results&quot;&gt;Final Results&lt;/h2&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/android/result.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Account UI Front-end Implementation</title>
+   <link href="http://localhost:4000/work/google"/>
+   <updated>2017-03-24T00:00:00-07:00</updated>
+   <id>http://localhost:4000/work/google</id>
+   <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/google/id_logo.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;google-account-ui-implementation&quot;&gt;GOOGLE ACCOUNT UI IMPLEMENTATION&lt;/h1&gt;
+
+&lt;div class=&quot;row justify-content-md-center&quot;&gt;
+  &lt;div class=&quot;section-intro col-md-10 col-md-offset-1 col-12&quot;&gt;
+    &lt;p&gt;
+      In 2015, Google launched a new identity with stronger emphasis on clean, minimal layouts for frictionless and extensible design. As a result, Google Account sign-in and sign-up flow on all devices and platforms need to be updated. My project is to implement the new design on iOS and macOS.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;objectives--challenges&quot;&gt;OBJECTIVES &amp;amp; CHALLENGES&lt;/h6&gt;
+&lt;h2 id=&quot;user-experience-at-heart&quot;&gt;USER EXPERIENCE AT HEART&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;As Google’s products touches millions of users everyday and Google Accounts is highly visible on every product, the impact of this project is considerable to both direct consumers and the company as a whole. While developing, we focused on the following aspects.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/id_logo.png&quot; alt=&quot;&quot; /&gt;
+    &lt;h5&gt;User Trust&lt;/h5&gt;
+    &lt;p&gt;Implementing new UI across all the platform promotes consistency while enhancing user trust of the new UI while promoting brand recognition. &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/trust_icon.png&quot; alt=&quot;&quot; /&gt;
+    &lt;h5&gt;Accessibility&lt;/h5&gt;
+    &lt;p&gt;Great product should be accessible to everyone. I learned the technical practices that provide all users with enjoyable experience.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature col-lg-4 col-12&quot;&gt;
+    &lt;img src=&quot;../media/google/scalability_icon.png&quot; alt=&quot;&quot; /&gt;
+    &lt;h5&gt;Functionality&lt;/h5&gt;
+    &lt;p&gt;User experience is both about how it looks and how it works. Maintainable and scalable code base is the foundation for a quality product.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;process--deliverables&quot;&gt;PROCESS &amp;amp; DELIVERABLES&lt;/h6&gt;
+&lt;h2 id=&quot;collaboration-with-teams&quot;&gt;COLLABORATION WITH TEAMS&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-lg-10 col-md-10 col-12&quot;&gt;
+    &lt;p&gt;Implementing projects entails a great deal of team effort. I have frequently attended meetings with PMs, designers, copywriters and engineers to help determine the timeline and level of effort for each task before initiation of a specific task. I also provide detailed documentation to track and explain my process. Languages and technologies I used to deliver my work include Soy (HTML), GSS (CSS), JavaScript.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/tech.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;number number--3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h6 id=&quot;result--impact&quot;&gt;RESULT &amp;amp; IMPACT&lt;/h6&gt;
+
+&lt;h2 id=&quot;project-launching&quot;&gt;PROJECT LAUNCHING&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;section-intro col-12&quot;&gt;
+    &lt;p&gt;The project launched in November 2016 impacting 2 million users. The code I delivered met of Google’s coding standard and requirements from user experience team. completed supporting tasks for successful launch, including: webdriver tests and test plans, accessibility review, design review and launch plan.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-separator&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;img src=&quot;/media/google/comparison.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
