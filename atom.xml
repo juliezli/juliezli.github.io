@@ -4,7 +4,7 @@
  <title>Julie Li | Product Designer</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-04-11T13:39:11-07:00</updated>
+ <updated>2017-05-03T00:10:44-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Julie Li</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>Transitional Resources Website Redesign</title>
-   <link href="http://localhost:4000/work/tr"/>
+   <link href="http://localhost:4000/work/tr/"/>
    <updated>2017-03-29T00:00:00-07:00</updated>
    <id>http://localhost:4000/work/tr</id>
    <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/tr/tr_logo_small.svg&quot; alt=&quot;&quot; /&gt;
@@ -194,7 +194,7 @@
  
  <entry>
    <title>Lique - Mobile App Design</title>
-   <link href="http://localhost:4000/work/lique"/>
+   <link href="http://localhost:4000/work/lique/"/>
    <updated>2017-03-29T00:00:00-07:00</updated>
    <id>http://localhost:4000/work/lique</id>
    <content type="html">&lt;div class=&quot;container&quot;&gt;
@@ -267,7 +267,7 @@
  
  <entry>
    <title>Android Onboarding Experience Design</title>
-   <link href="http://localhost:4000/work/android"/>
+   <link href="http://localhost:4000/work/android/"/>
    <updated>2017-03-28T00:00:00-07:00</updated>
    <id>http://localhost:4000/work/android</id>
    <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/android/logo.png&quot; alt=&quot;&quot; /&gt;
@@ -377,7 +377,7 @@
  
  <entry>
    <title>Google Account UI Front-end Implementation</title>
-   <link href="http://localhost:4000/work/google"/>
+   <link href="http://localhost:4000/work/google/"/>
    <updated>2017-03-24T00:00:00-07:00</updated>
    <id>http://localhost:4000/work/google</id>
    <content type="html">&lt;div id=&quot;article-img&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/media/google/id_logo.png&quot; alt=&quot;&quot; /&gt;
